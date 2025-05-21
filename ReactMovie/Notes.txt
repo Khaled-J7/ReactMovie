@@ -1,0 +1,61 @@
+📌 useEffect() Hook: 
+
+The useEffect hook allows you to add side effects to your functions or to your components and define when they should run
+
+Syntax: useEffect( () => {}, [])
+
+-> `() => {}` the function you want to call when this `[]` array cahnges (dependencies array)
+When the array is empty it means we will run the function one time initially when this component is rendered on the screen
+
+--------------------
+
+📌 Context:
+
+A context will allow state to be globally available to anything that's within the provided context
+
+Let's break down Context, Context Manager, and the useContext hook in React. These concepts are fundamental for managing state and sharing data across your component tree without having to manually pass props down through every level (a problem known as "prop drilling").
+
+1. What is React Context?
+At its core, React Context provides a way to share values (like themes, user authentication status, selected language, or even complex data structures) that are considered "global" for a tree of React components. It's designed to share data that can be considered "global" for a tree of React components, but you don't want to pass props down manually at every level.
+
+The Problem it Solves (Prop Drilling):
+Imagine you have a component A that renders B, which renders C, which renders D. If A has some data that D needs, you would traditionally have to pass that data as a prop from A to B, then B to C, and finally C to D. This becomes cumbersome and makes your code harder to maintain as your application grows. This is "prop drilling."
+
+How Context Solves It:
+Context allows you to create a "provider" component that makes data available to any component nested within it, no matter how deep, without explicitly passing props. Any component nested within the provider can then "consume" that data.
+
+Let's break down Context, Context Manager, and the useContext hook in React. These concepts are fundamental for managing state and sharing data across your component tree without having to manually pass props down through every level (a problem known as "prop drilling").
+
+1. What is React Context?
+At its core, React Context provides a way to share values (like themes, user authentication status, selected language, or even complex data structures) that are considered "global" for a tree of React components. It's designed to share data that can be considered "global" for a tree of React components, but you don't want to pass props down manually at every level.
+
+The Problem it Solves (Prop Drilling):
+Imagine you have a component A that renders B, which renders C, which renders D. If A has some data that D needs, you would traditionally have to pass that data as a prop from A to B, then B to C, and finally C to D. This becomes cumbersome and makes your code harder to maintain as your application grows. This is "prop drilling."
+
+How Context Solves It:
+Context allows you to create a "provider" component that makes data available to any component nested within it, no matter how deep, without explicitly passing props. Any component nested within the provider can then "consume" that data.
+
+2. What is a Context Manager (or Context Provider)?
+While "Context Manager" isn't a strict term in React, it effectively refers to the Context.Provider component.
+
+When you create a Context, for example:
+
+userContext.js:
+
+import React from 'react';
+const UserContext = React.createContext(null); // Initial value
+export default UserContext;
+
+
+------------------
+
+📌 {children} :
+
+children is a reserved prop when you write a component and children is anything that is inside of the component that you rendered
+
+Example:
+    <BrowserRouter>
+		<App />
+    </BrowserRouter>
+
+`BrowserRouter` has children equal to `App` because we put the App component inside the BrowserRouter component
