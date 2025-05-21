@@ -38,33 +38,7 @@ A dynamic and responsive web application for Browse and managing a collection of
 
 The project follows a logical and scalable directory structure:
 
-├── public/                 # Static assets
-├── src/
-│   ├── App.jsx             # Main application component
-│   ├── assets/             # Images, icons
-│   ├── components/
-│   │   ├── MovieCard.jsx   # Displays individual movie details
-│   │   └── NavBar.jsx      # Application navigation bar
-│   ├── contexts/
-│   │   └── MovieContext.jsx # React Context for global movie data/state
-│   ├── css/                # Centralized styling for components and pages
-│   │   ├── App.css
-│   │   ├── Favorites.css
-│   │   ├── Home.css
-│   │   ├── MovieCard.css
-│   │   ├── Navbar.css
-│   │   └── index.css
-│   ├── main.jsx            # Entry point of the React application
-│   ├── pages/
-│   │   ├── Favorites.jsx   # Displays user's favorite movies
-│   │   └── Home.jsx        # Displays the main movie catalog and search
-│   └── services/
-│       └── api.js          # Placeholder for potential API calls (or mock data)
-├── .gitignore              # Specifies intentionally untracked files to ignore
-├── index.html              # Main HTML file
-├── package.json            # Project dependencies and scripts
-├── vite.config.js          # Vite configuration
-└── README.md               # This README file
+<pre> ## 📁 Project Structure ``` . ├── public/ │ └── vite.svg ├── src/ │ ├── App.jsx │ ├── assets/ │ │ └── react.svg │ ├── components/ │ │ ├── MovieCard.jsx │ │ └── NavBar.jsx │ ├── contexts/ │ │ └── MovieContext.jsx │ ├── css/ │ │ ├── App.css │ │ ├── Favorites.css │ │ ├── Home.css │ │ ├── MovieCard.css │ │ ├── Navbar.css │ │ └── index.css │ ├── main.jsx │ ├── pages/ │ │ ├── Favorites.jsx │ │ └── Home.jsx │ └── services/ │ └── api.js ├── .gitignore ├── index.html ├── package-lock.json ├── package.json ├── vite.config.js └── README.md ``` </pre>
 
 ### Author
 **Khaled Jallouli**
