@@ -5,16 +5,16 @@ A dynamic and responsive web application for Browse and managing a collection of
 ## 📸 Screenshots
 
 ### Home Page - Initial View
-![Home Page Initial View]([https://github.com/Khaled-J7/ReactMovie/blob/main/docs/homepage.png?raw=true](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/homepage.png))
+![Home Page Initial View](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/homepage.png)
 
 ### Home Page - Searching for "Final Destination"
-![Home Page Search Final Destination]([https://github.H.com/Khaled-J7/ReactMovie/blob/main/docs/search_movies.png?raw=true](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/search_movies_2.png))
+![Home Page Search Final Destination](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/search_movies_2.png)
 
 ### Home Page - Searching for "Avengers"
 ![Home Page Search Avengers](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/search_movies.png)
 
 ### Favorites Page
-![Favorites Page]([https://github.com/Khaled-J7/ReactMovie/blob/main/docs/favorites.png?raw=true](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/favorites.png))
+![Favorites Page](https://github.com/Khaled-J7/ReactMovie/blob/main/ReactMovie/docs/favorites.png)
 
 ## ✨ Features
 
